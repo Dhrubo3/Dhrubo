@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="project.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm" onsubmit="validateForm(event)">
+      <input type="text" id="name" placeholder="Your Name"/>
+      <div class="error" id="nameError"></div>
+
+      <input type="email" id="email" placeholder="Your Email"/>
+      <div class="error" id="emailError"></div>
+
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <div class="error" id="messageError"></div>
+
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+<footer>
+  © 2026 MyPortfolio | Time: <span id="clock"></span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

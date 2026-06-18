@@ -1,0 +1,77 @@
+.parent{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border: 1px; 
+}
+
+.c1{
+    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    left: 600px;
+}
+
+.c2{
+    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    left: 600px;
+    top: 90px;
+}
+
+.c3{
+    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    left: 600px;
+    top: 180px;
+}
+
+.c4{
+    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    left: 530px;
+    top: 45px;
+}
+
+.c5{
+    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    left: 530px;
+    top: 135px;
+}
+
+.c6{
+    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    left: 670px;
+    top: 45px;
+}
+
+.c7{
+    color: black;
+    background-color: black;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    left: 670px;
+    top: 135px;
+}
+
